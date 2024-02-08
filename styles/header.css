@@ -24,6 +24,12 @@
     padding: 1em;
 }
 
+.icone-dark{
+    width: 3em;
+}
+
+
+
 .lista-menu{
     display: none;
     position: absolute;
@@ -56,3 +62,4 @@
 .container__botao{
     display: none;
 }
+
