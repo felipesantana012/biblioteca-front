@@ -2,7 +2,7 @@
     display: inline-block;
     width: 24px;
     height: 24px;
-    background-image: url("../img/Menu.svg");
+    background-image: url("/img/img-icons/Menu.svg");
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -22,12 +22,8 @@
 
 .container__imagem{
     padding: 1em;
+    max-width: 2.5em;
 }
-
-.icone-dark{
-    width: 3em;
-}
-
 
 
 .lista-menu{
