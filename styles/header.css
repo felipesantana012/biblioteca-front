@@ -1,7 +1,7 @@
 .cabecalho__menu-hamburguer{
     display: inline-block;
-    width: 24px;
-    height: 24px;
+    width: 20px;
+    height: 20px;
     background-image: url("/img/img-icons/Menu.svg");
     background-repeat: no-repeat;
     background-position: center;
@@ -21,10 +21,18 @@
 }
 
 .container__imagem{
-    padding: 0.5em;
-    max-width: 2.3em;
+    padding: 0.4em;
+    max-width: 2.2em;
 }
 
+.container__imagem__botao{
+   border: transparent;
+   background-color: transparent;
+}
+
+.container__imagem, .dark{
+    max-width: 2.4em;
+}
 
 .lista-menu{
     display: none;
