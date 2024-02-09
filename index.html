@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Biblioteca</title>
+    <link rel="stylesheet" href="/reset.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
-    <link rel="stylesheet" href="/reset.css">
     <link rel="stylesheet" href="/style.css">
 </head>
 <body>
@@ -43,8 +43,7 @@
                 <a href="#"><img src="/img/img-icons/Favoritos.svg" alt="icone Favoritos" class="container__imagem"></a>
                 <a href="#"><img src="/img/img-icons/Compras.svg" alt="icone Compras" class="container__imagem"></a>
                 <a href="#"><img src="/img/img-icons/Usuario.svg" alt="icone Usuario" class="container__imagem"></a>
-                <a href="#"><img src="/img/img-icons/dark.svg" alt="icone dark" class="container__imagem"></a>
-                
+                <a href="#"><img src="/img/img-icons/dark.svg" alt="icone dark" class="container__imagem"></a>     
             </div>
         </header>
 
@@ -65,20 +64,43 @@
                 <!-- Additional required wrapper -->
                 <div class="swiper-wrapper">
                      <!-- Slides -->
-                    <div class="swiper-slide"><img src="/img/img-livros/livro03.svg" alt="livro03"></div>
-                    <div class="swiper-slide"><img src="/img/img-livros/livro05.svg" alt="livro05"></div>
-                    <div class="swiper-slide"><img src="/img/img-livros/livro03.svg" alt="livro03"></div>
-                    <div class="swiper-slide"><img src="/img/img-livros/livro05.svg" alt="livro05"></div>
-                    <div class="swiper-slide"><img src="/img/img-livros/livro03.svg" alt="livro03"></div>
-                    <div class="swiper-slide"><img src="/img/img-livros/livro05.svg" alt="livro05"></div>
+                    <div class="swiper-slide"><img src="/img/img-livros/livro02.svg" alt="livro03"></div>
+                    <div class="swiper-slide"><img src="/img/img-livros/livro02.svg" alt="livro05"></div>
+                    <div class="swiper-slide"><img src="/img/img-livros/livro02.svg" alt="livro03"></div>
+                    <div class="swiper-slide"><img src="/img/img-livros/livro02.svg" alt="livro05"></div>
+                    <div class="swiper-slide"><img src="/img/img-livros/livro02.svg" alt="livro03"></div>
+                    <div class="swiper-slide"><img src="/img/img-livros/livro02.svg" alt="livro05"></div>
                 </div>
-               
-            
                 <!-- If we need navigation buttons -->
                 <div class="swiper-button-prev"></div>
                 <div class="swiper-button-next"></div>
-            
-              
+            </div>
+
+            <div class="card">
+
+                <!--Linha 01-->
+                <div class="card__descricao">
+                    <!--Coluna 01-->
+                    <div class="descricao">
+                        <h3 class="descricao__titulo">Talvez Voce tambem se interesse por...</h3>
+                        <h2 class="descricao__titulo-livro">Angular 11 e firebase</h2>
+                        <p class="descricao__texto">Construindo uma aplicação integrada com plataformas</p>
+                    </div>
+                    <!--Coluna 02-->
+                    <img src="/img/img-icons/Logo.svg" class="descricao__imagem" alt="descricao da imagem">
+                </div>
+
+
+                <!--Linha 02-->
+                <div class="card__botoes">
+                    <!--Coluna 01-->
+                    <ul class="botoes">
+                        <li class="botoes__item"><img src="/img/img-icons/Favoritos.svg" alt="Favoritar livro"></li>
+                        <li class="botoes__item"><img src="/img/img-icons/Compras.svg" alt="Comprar livro"></li>
+                    </ul>
+                    <!--Colune 02-->
+                    <a href="#" class="botao__ancora">Saiba Mais</a>
+                </div>
             </div>
 
         </section>
