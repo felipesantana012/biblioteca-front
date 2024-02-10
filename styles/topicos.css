@@ -1,0 +1,32 @@
+.topicos{
+    background: var(--azul-degrade);
+    text-align: center;
+    padding: 1em 0;
+}
+
+.topicos__titulo{
+    color: var(--branco);
+    font-weight: 300;
+    margin-bottom: 1em;
+}
+
+.tapicos__lista{
+    display: flex;
+    flex-wrap: wrap; /*Faz com que não quebre para fora da tela, ele faz a quebra de linha*/
+    justify-content: center;
+    padding: 1em;
+}
+
+.topicos__item{
+    margin: 2em 0.5em;
+}
+
+
+.topicos__link{
+    color: var(--branco);
+    background-color: var(--laranja);
+    padding: 0.5em;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+}
