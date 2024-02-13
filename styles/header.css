@@ -76,7 +76,7 @@
     
 }
 
-
+/*Responsividade tablete*/
 @media screen and (min-width: 1024px){
 
     .container__titulo, .container__titulo-negrito{
