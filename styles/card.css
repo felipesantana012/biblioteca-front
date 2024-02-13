@@ -53,3 +53,10 @@
     font-weight: 700;
     text-decoration: none;
 }
+
+@media screen and (min-width:1024px){
+    .card{
+        width: 40%;
+        margin: 2em auto;
+    }
+}
