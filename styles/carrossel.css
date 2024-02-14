@@ -45,5 +45,24 @@
 
 }
 
+@media screen and (min-width:1360px) {
+
+    .carrossel__container{
+        display: flex;
+        margin: 0em 20vw 3em 20vw ;
+        align-items: center;
+       
+    }
+
+    .swiper-pagination{
+        margin: 1em; 
+        }
+
+    .swiper{
+        width: 50%;
+    }
+    
+}
+
 
 

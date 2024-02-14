@@ -58,3 +58,11 @@
     
     }
 }
+
+@media screen and (min-width:1360px) {
+
+    .contato{
+        padding: 3em 15vw;
+    }
+    
+}
