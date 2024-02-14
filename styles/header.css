@@ -28,6 +28,7 @@
 .container__imagem__botao{
    border: transparent;
    background-color: transparent;
+   cursor: pointer;
 }
 
 .container__imagem, .dark{
@@ -61,6 +62,10 @@
     -webkit-text-fill-color: var(--azul-degrade);
     background-clip: text;
     text-transform: uppercase;
+}
+
+.container__texto{
+    display: none;
 }
 
 .container__botao{
@@ -125,4 +130,30 @@
         display: none;
     }
 
+}
+
+@media screen and (min-width:1360px) {
+
+    .cabecalho{
+        padding: 0 2em;
+
+    }
+
+    .container__link{
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        margin: 0.5em;
+        color: var(--preto);
+    }
+
+    .opcoes{
+        margin-right: auto;
+    }
+
+    .container__texto{
+        display: block;
+    }
+    
+    
 }
