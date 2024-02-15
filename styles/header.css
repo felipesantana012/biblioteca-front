@@ -7,6 +7,13 @@
     background-position: center;
 }
 
+.container__botao:checked~.container__rotulo>.cabecalho__menu-hamburguer{
+    background-image: url("/img/img-icons/menuAberto.svg");
+}
+.container__botao:checked~.container__rotulo{
+    background: var(--azul-degrade);
+}
+
 .cabecalho{
     background-color: var(--branco);
     display: flex;
@@ -129,6 +136,23 @@
     .opcoes__botao{
         display: none;
     }
+
+    /*se o input com a class opcoes__botao estiver selecioda então a class*/
+    .opcoes__botao:checked~.opcoes__rotulo>.opcoes__item{
+        background: var(--azul-degrade);
+        color: var(--branco);
+    }
+
+    .lista-menu__item:hover{
+        background: var(--azul-degrade);
+        
+    }
+
+    .lista-menu__item:hover>.lista-menu__link{
+        /*color: var(--branco);*/
+        -webkit-text-fill-color: var(--branco);
+    }
+  
 
 }
 
